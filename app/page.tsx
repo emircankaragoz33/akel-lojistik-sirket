@@ -37,7 +37,7 @@ export default function Home() {
                         {/* Ultra Large Logo without Box */}
                         <div className="inline-block transform hover:scale-105 transition-all duration-500 mb-0">
                             <img
-                                src="/homepage-logo.png"
+                                src={t('logo_home')}
                                 alt="AKEL Logo"
                                 className="h-64 md:h-[500px] lg:h-[600px] w-auto object-contain drop-shadow-[0_0_60px_rgba(255,255,255,0.4)]"
                             />

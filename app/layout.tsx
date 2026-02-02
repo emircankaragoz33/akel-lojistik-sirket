@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     openGraph: {
         title: "AKEL Kömür Madencilik | En Kaliteli Mangal Kömürü",
         description: "Türkiye'nin ilk mangal kömürü ithalatçısından %100 doğal ürünler.",
-        url: 'https://akelkomur.com',
+        url: 'https://akelkomurmadencilik.com.tr',
         siteName: 'AKEL Kömür Madencilik',
         locale: 'tr_TR',
         type: 'website',

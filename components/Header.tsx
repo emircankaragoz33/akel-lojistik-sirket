@@ -16,7 +16,7 @@ export default function Header() {
                     <div className="flex-1 lg:flex-none">
                         <Link href="/" className="flex items-center group transition-transform duration-300 hover:scale-105">
                             <img
-                                src="/navbar-logo.png"
+                                src={t('logo_nav')}
                                 alt="AKEL Logo"
                                 className="h-10 md:h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.2)]"
                             />

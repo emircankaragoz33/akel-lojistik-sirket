@@ -18,6 +18,10 @@ export const translations: Translations = {
     nav_products: { TR: 'Ürünlerimiz', EN: 'Our Products' },
     nav_contact: { TR: 'İletişim', EN: 'Contact' },
 
+    // Logos
+    logo_nav: { TR: '/navbar-logo.png', EN: '/logo-en.png' },
+    logo_home: { TR: '/homepage-logo.png', EN: '/logo-en.png' },
+
     // Home Page
     hero_title: { TR: 'Madenin Gücü, Ateşin Ruhu', EN: 'Power of Minning, Soul of Fire' },
     hero_desc: { TR: "Türkiye'nin ilk mangal kömürü ithalatçısı, yüksek performans ve %100 doğalık AKEL Kömür Madencilik'te!", EN: "Turkey's first charcoal importer, high performance and 100% naturalness at AKEL Coal Mining!" },
