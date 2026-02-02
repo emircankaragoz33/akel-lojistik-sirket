@@ -1,0 +1,21 @@
+AKEL Kömür Madencilik - Görsel Placeholder Bilgileri
+
+Bu klasöre aşağıdaki görselleri ekleyebilirsiniz:
+
+1. akel-coal-hero.jpg (1920x1080px)
+   - Anasayfa hero arka planı
+   - AKEL yazısı olan mangal kömürü görseli
+   - Yanan kömür, ateş, közler
+
+2. coal-texture.jpg (1920x1080px)
+   - Hakkımızda ve diğer sayfalar için
+   - Mangal kömürü dokusu
+   - Karanlık, şık görünüm
+
+3. coal-embers.jpg (1920x1080px)
+   - İletişim sayfası için
+   - Közleşmiş kömür görseli
+   - Turuncu-kırmızı tonlar
+
+Şu anda CSS ile oluşturulmuş gradyan ve desenler kullanılıyor.
+Gerçek görselleri ekledikten sonra otomatik olarak görünecekler.

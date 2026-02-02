@@ -1,0 +1,151 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --coal-red: #c41e3a;
+  --coal-dark: #1a1a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Coal texture pattern */
+.coal-texture {
+  background-color: #0a0a0a;
+  background-image:
+    radial-gradient(circle at 20% 30%, rgba(40, 40, 40, 0.4) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(30, 30, 30, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(35, 35, 35, 0.35) 0%, transparent 50%),
+    radial-gradient(circle at 60% 20%, rgba(45, 45, 45, 0.3) 0%, transparent 50%);
+  background-size: 400px 400px, 350px 350px, 300px 300px, 450px 450px;
+  background-position: 0 0, 100px 100px, 200px 50px, 50px 200px;
+}
+
+/* Fire embers effect */
+.fire-embers {
+  background:
+    radial-gradient(circle at 15% 25%, rgba(196, 30, 58, 0.15) 0%, transparent 25%),
+    radial-gradient(circle at 85% 75%, rgba(255, 107, 107, 0.1) 0%, transparent 30%),
+    radial-gradient(circle at 45% 85%, rgba(196, 30, 58, 0.12) 0%, transparent 20%),
+    radial-gradient(circle at 70% 15%, rgba(255, 140, 0, 0.08) 0%, transparent 25%),
+    linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  background-size: 600px 600px, 500px 500px, 400px 400px, 550px 550px, 100% 100%;
+  animation: emberGlow 8s ease-in-out infinite;
+}
+
+@keyframes emberGlow {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.85;
+  }
+}
+
+/* Hero coal background with AKEL text effect */
+.hero-coal-bg {
+  background:
+    linear-gradient(135deg, rgba(10, 10, 10, 0.95) 0%, rgba(26, 26, 26, 0.9) 100%),
+    radial-gradient(circle at 50% 50%, rgba(196, 30, 58, 0.2) 0%, transparent 60%);
+  background-size: 100% 100%, 800px 800px;
+  position: relative;
+}
+
+.hero-coal-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 30% 40%, rgba(255, 107, 107, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 70% 60%, rgba(196, 30, 58, 0.12) 0%, transparent 35%),
+    radial-gradient(circle at 50% 80%, rgba(255, 140, 0, 0.1) 0%, transparent 30%);
+  background-size: 500px 500px, 600px 600px, 450px 450px;
+  animation: fireFlicker 6s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+@keyframes fireFlicker {
+
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+
+  25% {
+    opacity: 0.7;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+
+  75% {
+    opacity: 0.65;
+  }
+}
+
+/* Subtle coal pattern overlay */
+.coal-pattern {
+  background-image:
+    repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.02) 10px, rgba(255, 255, 255, 0.02) 20px),
+    repeating-linear-gradient(-45deg, transparent, transparent 10px, rgba(0, 0, 0, 0.03) 10px, rgba(0, 0, 0, 0.03) 20px);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .glass-effect {
+    background: rgba(26, 26, 26, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .glass-effect-strong {
+    background: rgba(26, 26, 26, 0.85);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(196, 30, 58, 0.1);
+  }
+
+  .coal-gradient {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  }
+
+  .fire-gradient {
+    background: linear-gradient(135deg, #c41e3a 0%, #ff6b6b 100%);
+  }
+
+  .fire-gradient-hover {
+    background: linear-gradient(135deg, #c41e3a 0%, #ff6b6b 100%);
+    transition: all 0.3s ease;
+  }
+
+  .fire-gradient-hover:hover {
+    background: linear-gradient(135deg, #d42e4a 0%, #ff7b7b 100%);
+    box-shadow: 0 10px 40px rgba(196, 30, 58, 0.4);
+  }
+}
