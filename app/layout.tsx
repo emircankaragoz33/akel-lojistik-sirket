@@ -2,10 +2,19 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "AKEL Kömür Madencilik",
-    description: "Türkiye'nin ilk mangal kömürü ithalatçısı, yüksek performans ve %100 doğalık AKEL Kömür Madencilik",
+    title: "AKEL Kömür Madencilik | Türkiye'nin Öncü Mangal Kömürü İthalatçısı",
+    description: "AKEL Kömür Madencilik, Türkiye'nin ilk mangal kömürü ithalatçısıdır. %100 doğal, yüksek performanslı ve kaliteli mangal kömürü çeşitlerimizle hizmetinizdeyiz. Mersin merkezli güvenilir kömür tedarikçisi.",
+    keywords: "akel kömür, akel kömür madencilik, mangal kömürü, ithal mangal kömürü, kaliteli kömür, mersin kömür firmaları, doğal mangal kömürü, charcoal supplier turkey",
     icons: {
         icon: '/favicon.svg',
+    },
+    openGraph: {
+        title: "AKEL Kömür Madencilik | En Kaliteli Mangal Kömürü",
+        description: "Türkiye'nin ilk mangal kömürü ithalatçısından %100 doğal ürünler.",
+        url: 'https://akelkomur.com',
+        siteName: 'AKEL Kömür Madencilik',
+        locale: 'tr_TR',
+        type: 'website',
     },
 };
 
