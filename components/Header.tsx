@@ -18,7 +18,7 @@ export default function Header() {
                             <img
                                 src={t('logo_nav')}
                                 alt="AKEL Logo"
-                                className="h-10 md:h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.2)]"
+                                className="h-8 md:h-14 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.2)]"
                             />
                         </Link>
                     </div>

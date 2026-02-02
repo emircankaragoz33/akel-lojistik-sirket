@@ -34,18 +34,16 @@ export default function Home() {
                 {/* Content */}
                 <div className="relative z-10 container mx-auto px-6 text-center">
                     <div className="max-w-4xl mx-auto flex flex-col items-center">
-                        {/* Ultra Large Logo without Box */}
-                        <div className="inline-block transform hover:scale-105 transition-all duration-500 mb-0">
+                        <div className="inline-block transform hover:scale-105 transition-all duration-500 mb-2">
                             <img
                                 src={t('logo_home')}
                                 alt="AKEL Logo"
-                                className="h-64 md:h-[500px] lg:h-[600px] w-auto object-contain drop-shadow-[0_0_60px_rgba(255,255,255,0.4)]"
+                                className="h-48 sm:h-64 md:h-[450px] lg:h-[550px] w-auto object-contain drop-shadow-[0_0_40px_rgba(255,255,255,0.3)]"
                             />
                         </div>
 
-                        {/* Text Content - Hidden on Desktop (lg:hidden) as requested */}
-                        <div className="-mt-8 md:-mt-16 lg:-mt-24 lg:hidden">
-                            <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white text-glow shadow-black drop-shadow-lg">
+                        <div className="-mt-4 sm:-mt-8 md:-mt-16 lg:-mt-24 lg:hidden px-4">
+                            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-white text-glow shadow-black drop-shadow-lg">
                                 {t('hero_title')}
                             </h2>
 
