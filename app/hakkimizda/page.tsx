@@ -24,7 +24,7 @@ export default function Hakkimizda() {
                 <div className="absolute inset-0 bg-black/60" />
 
                 <div className="relative z-10 container mx-auto px-6 text-center">
-                    <h1 className="text-5xl md:text-7xl font-black mb-6 text-white uppercase tracking-tighter">
+                    <h1 className="text-5xl md:text-8xl font-bold mb-6 text-white uppercase tracking-[0.15em] drop-shadow-2xl">
                         {t('about_hero')}
                     </h1>
                 </div>

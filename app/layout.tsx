@@ -1,5 +1,12 @@
 import type { Metadata } from "next";
+import { Outfit } from "next/font/google";
 import "./globals.css";
+
+const outfit = Outfit({
+    subsets: ["latin"],
+    weight: ["300", "400", "500", "600", "700", "800", "900"],
+    variable: "--font-outfit",
+});
 
 export const metadata: Metadata = {
     title: "AKEL Kömür Madencilik | Türkiye'nin Öncü Mangal Kömürü İthalatçısı",
@@ -26,8 +33,8 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="tr">
-            <body>
+        <html lang="tr" className={outfit.variable}>
+            <body className="font-outfit antialiased">
                 <Providers>
                     {children}
                 </Providers>
