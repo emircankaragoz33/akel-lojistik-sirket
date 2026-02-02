@@ -92,7 +92,7 @@ export default function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Feature 1 */}
                         <div className="glass-effect p-8 rounded-2xl hover:scale-105 transition-transform duration-300">
-                            <div className="text-[#c41e3a] text-5xl mb-4">🔥</div>
+                            <div className="text-[#c41e3a] text-5xl mb-4"></div>
                             <h3 className="text-2xl font-bold mb-4 text-white uppercase tracking-tight">{t('feat_perf_title')}</h3>
                             <p className="text-gray-400">
                                 {t('feat_perf_desc')}
@@ -101,7 +101,7 @@ export default function Home() {
 
                         {/* Feature 2 */}
                         <div className="glass-effect p-8 rounded-2xl hover:scale-105 transition-transform duration-300">
-                            <div className="text-[#c41e3a] text-5xl mb-4">✨</div>
+                            <div className="text-[#c41e3a] text-5xl mb-4"></div>
                             <h3 className="text-2xl font-bold mb-4 text-white uppercase tracking-tight">{t('feat_nat_title')}</h3>
                             <p className="text-gray-400">
                                 {t('feat_nat_desc')}
@@ -110,7 +110,7 @@ export default function Home() {
 
                         {/* Feature 3 */}
                         <div className="glass-effect p-8 rounded-2xl hover:scale-105 transition-transform duration-300">
-                            <div className="text-[#c41e3a] text-5xl mb-4">⚡</div>
+                            <div className="text-[#c41e3a] text-5xl mb-4"></div>
                             <h3 className="text-2xl font-bold mb-4 text-white uppercase tracking-tight">{t('feat_easy_title')}</h3>
                             <p className="text-gray-400">
                                 {t('feat_easy_desc')}
@@ -119,7 +119,7 @@ export default function Home() {
 
                         {/* Feature 4 */}
                         <div className="glass-effect p-8 rounded-2xl hover:scale-105 transition-transform duration-300">
-                            <div className="text-[#c41e3a] text-5xl mb-4">📦</div>
+                            <div className="text-[#c41e3a] text-5xl mb-4"></div>
                             <h3 className="text-2xl font-bold mb-4 text-white uppercase tracking-tight">{t('feat_div_title')}</h3>
                             <p className="text-gray-400">
                                 {t('feat_div_desc')}
@@ -128,7 +128,7 @@ export default function Home() {
 
                         {/* Feature 5 */}
                         <div className="glass-effect p-8 rounded-2xl hover:scale-105 transition-transform duration-300 md:col-span-2 lg:col-span-1 border-2 border-[#c41e3a]/30">
-                            <div className="text-[#c41e3a] text-5xl mb-4">🔍</div>
+                            <div className="text-[#c41e3a] text-5xl mb-4"></div>
                             <h3 className="text-2xl font-bold mb-4 text-white uppercase tracking-tight">{t('feat_source_title')}</h3>
                             <p className="text-gray-400">
                                 {t('feat_source_desc')}

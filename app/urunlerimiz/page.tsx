@@ -84,7 +84,7 @@ export default function Urunlerimiz() {
                                     <ul className="space-y-4">
                                         {charcoalFeatures.map((feature, index) => (
                                             <li key={index} className="flex items-center text-gray-200">
-                                                <span className="w-8 h-8 rounded-full fire-gradient flex items-center justify-center mr-4 text-xs">🔥</span>
+                                                <span className="w-8 h-8 rounded-full fire-gradient flex items-center justify-center mr-4 text-xs"></span>
                                                 <span className="text-lg">{feature}</span>
                                             </li>
                                         ))}
